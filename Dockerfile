@@ -1,4 +1,4 @@
-FROM node:21-buster
+FROM node:22-buster
 
 RUN apt-get update && \
     apt-get install -y ffmpeg webp git && \
